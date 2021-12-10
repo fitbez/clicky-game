@@ -1,5 +1,4 @@
 .nav-header {
-
   background: #434259;
   color: #fff;
   height: 100px;
@@ -11,14 +10,15 @@
 }
 
 .nav-header li {
-
   display: inline-block;
   width: 33.3%;
   text-align: center;
 }
 
-
 .nav-header h1 {
-
   font-size: 50px;
+}
+.nav-header ul {
+  margin: 0;
+  /* position: fixed; */
 }

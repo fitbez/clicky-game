@@ -2,73 +2,61 @@
   {
     "id": 1,
     "name": "Rick Sanchez",
-    "image":
-      "https://vignette.wikia.nocookie.net/rickandmorty/images/d/d2/Rick_D99.png/revision/latest?cb=20170402053917"
+    "image": "https://vignette.wikia.nocookie.net/rickandmorty/images/d/d2/Rick_D99.png/revision/latest?cb=20170402053917"
   },
   {
     "id": 2,
     "name": "Morty Smith",
-    "image":
-      "https://static.giantbomb.com/uploads/scale_small/0/9517/2816097-tumblr_n45cr8dmj61ty0km0o7_1280.png"
+    "image": "https://vignette.wikia.nocookie.net/p__/images/4/41/Morty_Smith.jpg/revision/latest?cb=20151108225631&path-prefix=protagonist"
   },
   {
     "id": 3,
     "name": "Summer Smith",
-    "image":
-      "https://vignette.wikia.nocookie.net/rickandmorty/images/a/ad/Summer_is_cool.jpeg/revision/latest/scale-to-width-down/310?cb=20160919183158"
+    "image": "https://vignette.wikia.nocookie.net/rickandmorty/images/a/ad/Summer_is_cool.jpeg/revision/latest/scale-to-width-down/310?cb=20160919183158"
   },
   {
     "id": 4,
     "name": "King Flippy Nips",
-    "image":
-      "https://vignette.wikia.nocookie.net/rickandmorty/images/6/62/King_Flippynips.png/revision/latest/scale-to-width-down/310?cb=20140516021959"
+    "image": "https://vignette.wikia.nocookie.net/rickandmorty/images/6/62/King_Flippynips.png/revision/latest/scale-to-width-down/310?cb=20140516021959"
   },
   {
     "id": 5,
     "name": "Eli",
-    "image":
-      "https://vignette.wikia.nocookie.net/rickandmorty/images/0/08/Eli.png/revision/latest?cb=20170731153834"
+    "image": "https://vignette.wikia.nocookie.net/rickandmorty/images/0/08/Eli.png/revision/latest?cb=20170731153834"
   },
   {
     "id": 6,
     "name": "Birdperson",
-    "image":
-      "http://vignette3.wikia.nocookie.net/rickandmorty/images/b/b1/Birdperson.png/revision/latest?cb=20140415133633"
+    "image": "http://vignette3.wikia.nocookie.net/rickandmorty/images/b/b1/Birdperson.png/revision/latest?cb=20140415133633"
   },
   {
     "id": 7,
     "name": "Meeseeks",
-    "image":
-      "http://vignette4.wikia.nocookie.net/rickandmorty/images/6/6c/MeeseeksHQ.png/revision/latest?cb=20150930232412"
+    "image": "http://vignette4.wikia.nocookie.net/rickandmorty/images/6/6c/MeeseeksHQ.png/revision/latest?cb=20150930232412"
   },
   {
     "id": 8,
     "name": "Principal Vagina",
-    "image":
-      "https://vignette.wikia.nocookie.net/rickandmorty/images/4/4f/Principal_Vagina_S01_E09.png/revision/latest/scale-to-width-down/310?cb=20140428151355"
+    "image": "https://vignette.wikia.nocookie.net/rickandmorty/images/4/4f/Principal_Vagina_S01_E09.png/revision/latest/scale-to-width-down/310?cb=20140428151355"
   },
   {
     "id": 9,
     "name": "Beth Smith",
-    "image":
-      "https://vignette.wikia.nocookie.net/rickandmorty/images/5/58/Beth_Smith.png/revision/latest?cb=20151204220729"
+    "image": "https://vignette.wikia.nocookie.net/rickandmorty/images/5/58/Beth_Smith.png/revision/latest?cb=20151204220729"
   },
   {
     "id": 10,
     "name": "Jerry Smith",
-    "image":
-      "https://vignette.wikia.nocookie.net/villains/images/4/46/Jerrypic.png/revision/latest?cb=20171125143457"
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.2FMmaRCQ8BuZSMy4aPEQmgHaEK%26pid%3DApi&f=1"
   },
   {
     "id": 11,
     "name": "Scary Terry",
-    "image":
-      "http://www.behindthevoiceactors.com/_img/chars/scary-terry-rick-and-morty-3.29.jpg"
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.images.express.co.uk%2Fimg%2Fdynamic%2F20%2F590x%2Fsecondary%2FScary-Terry-2286205.jpg%3Fr%3D1580396204343&f=1&nofb=1"
   },
   {
     "id": 12,
     "name": "Crocubot",
-    "image":
-      "https://vignette2.wikia.nocookie.net/rickandmorty/images/6/68/Crocubot.png/revision/latest?cb=20170814044646"
+    "image": "https://vignette2.wikia.nocookie.net/rickandmorty/images/6/68/Crocubot.png/revision/latest?cb=20170814044646"
   }
 ]

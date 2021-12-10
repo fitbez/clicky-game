@@ -1,70 +1,63 @@
 // React
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // Components
-import Nav from './components/Nav';
-import Card from './components/Card';
-import {Col, Container, Row} from "./components/Grid";
+import Nav from "./components/Nav";
+import Card from "./components/Card";
+import { Col, Container, Row } from "./components/Grid";
 // Characters
-import characters from './charactersRM.json';
+import characters from "./charactersRM.json";
 // Styling
-import './App.css';
+import "./App.css";
 // shuffles the array
-const shuffle = require('shuffle-array');
+const shuffle = require("shuffle-array");
 
 class App extends Component {
-
   state = {
-
     characters,
-    subtitle: 'Click an image to begin!',
+    subtitle: "Click an image to begin!",
     score: 0,
     topScore: 0,
-    pickArray: []
+    pickArray: [],
   };
 
-  handlePick = id => {
-
+  handlePick = (id) => {
     if (this.state.pickArray.indexOf(id) === -1) {
-
       const pickArray = this.state.pickArray;
       pickArray.push(id);
 
-      this.setState(() => ({ subtitle: 'You Guessed Correctly' }));
+      this.setState(() => ({ subtitle: "You Guessed Correctly" }));
       this.setState(() => ({ pickArray: pickArray }));
 
       if (this.state.topScore <= this.state.score) {
-
         this.setState(() => ({ score: this.state.score + 1 }));
         this.setState({ topScore: this.state.topScore + 1 });
-      }
-      else {
-
+      } else {
         this.setState(() => ({ score: this.state.score + 1 }));
       }
-    }
-    else {
-
+    } else {
       this.setState({ score: 0 });
-      this.setState({ subtitle: 'You Guessed Incorrectly' });
+      this.setState({ subtitle: "You Guessed Incorrectly" });
       this.setState(() => ({ pickArray: [] }));
     }
   };
 
   render() {
-
     return (
-
       <Container fluid>
         <Nav
           subtitle={this.state.subtitle}
           score={this.state.score}
           topScore={this.state.topScore}
+          style={{ postion: "fixed" }}
         />
         <div className="main">
           <Row>
+            <Row size="md-3">
+              Score: {this.state.score} | Top Score: {this.state.topScore}
+            </Row>
             <Col size="md-9">
               {shuffle(
-                this.state.characters.map(character => (
+                this.state.characters.map((character) => (
                   <Card
                     key={character.id}
                     id={character.id}
